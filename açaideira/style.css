@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: #5b2a86;
+}
+
+header .flex{
+    justify-content: space-between;
+}
+
+img{
+    width: 60px;
+}
+
+menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-pedido{
+    background-color: #F4E3B2;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img img{
+    width: 70px;
+}
+
+@media screen and (max-width: 1020px){
+    
+}
