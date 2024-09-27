@@ -1,52 +1,48 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
+.logo img{
+    width: 258px;
+}
+
+span{
+    color: #F05D23;
 }
 
 .flex{
     display: flex;
 }
 
-header{
-    background-color: #5b2a86;
+#principal .flex{
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-header .flex{
-    justify-content: space-between;
+#principal{
+    background-image: linear-gradient(to left, #501537, #B6307D);
+    height: 100vh;
+    padding: 40px;
 }
 
-img{
-    width: 60px;
-}
-
-menu ul li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 20px;
-}
-
-menu ul li a{
-    text-decoration: none;
+#principal h1{
     color: white;
+    font-size: 70px;
 }
 
-.btn-pedido{
-    background-color: #F4E3B2;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
+#principal img{
+    width: 555;
 }
 
-.img img{
-    width: 70px;
+#acai{
+    height: 100vh;
 }
 
-@media screen and (max-width: 1020px){
-    
+.txt h1{
+    color: F05D23;
 }
