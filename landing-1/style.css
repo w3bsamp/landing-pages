@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 1rem 1.5rem;
+    background-color: #7C3AED;
+    color: white;
+    font-family: 'Inter';
+    border-radius: .5rem;
+}
+
+.btn-secondary{
+    padding: 1rem 1.5rem;
+    color: #7C3AED;
+    font-family: 'Inter';
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    padding-inline: 88px;
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
+    font: 600 .875rem 'Inter';
+    padding: 1.5rem;
+
+    & ul{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+    & .menu img{
+        padding-right: 2rem;
+    }
+}
+
+#principal{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 1.5rem;
+    & div{
+        max-width: 40.5rem;
+    }
+    & h1{
+        font: bold 3.75rem 'Inter';
+        line-height: 4.5rem;
+    }
+    & p{
+        font: 400 1.125rem 'Inter';
+        line-height: 1.75rem;
+    }
+
+    & .button{
+        margin-top: 2rem;
+
+        & a{
+            margin-right: 1rem;
+        }
+    }
+}
+
+.icons{
+    display: flex;
+    padding-block: 3.625rem;
+    justify-content: center;
+    gap: 64px;
+}
+
+#featured{
+    padding-block: 96px;
+}
+
+.text{
+    text-align: center;
+    & h2{
+        font: bold 3rem 'Inter';
+        line-height: 3.75rem;
+    }
+    & p{
+        font: normal 1.12rem 'Inter';
+    }
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 64px;
+}
+
+.item{
+    max-width: 384px;
+    padding-top: 64px;
+    padding-inline: 16px;
+    text-align: center;
+
+    & h3{
+        margin-top: 1rem;
+        font: bold 1.87rem 'Inter';
+    }
+    & p{
+        margin-top: 8px;
+        font: normal 1rem 'Inter';
+    }
+}
