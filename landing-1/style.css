@@ -119,3 +119,42 @@ menu{
         font: normal 1rem 'Inter';
     }
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 384px;
+    grid-template-areas:
+    "A B"
+    "A C";
+    grid-template-rows: 5px;
+
+    gap: 10px;
+}
+
+.number1{
+    grid-area: A;
+}
+
+.number2{
+    grid-area: B;
+}
+
+.number3{
+    grid-area: C;
+}
+
+.itens{
+    background-color: #6B7280;
+    border-radius: 8px;
+    padding: 32px 32px;
+
+    & p {
+        margin-bottom: 32px;
+        font: normal 1rem 'Inter';
+    }
+
+    & span{
+        display: inline-block;
+        font: bold 1rem 'Inter';
+    }
+}
